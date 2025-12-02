@@ -1,15 +1,5 @@
-let pirates = [];
-
-fetch("pirates.json")
-  .then(res => res.json())
-  .then(data => {
-    pirates = data;
-    console.log("Loaded pirates:", pirates.length, "entries");
-  })
-  .catch(err => console.error("Error loading JSON:", err));
-
 document.getElementById("search").addEventListener("input", () => {
-  const query = document.getElementById("search").value.trim().toLowerCase();
+  const query = document.getElementById("search").value.trim();
   const resultsDiv = document.getElementById("results");
 
   if (!query) {
@@ -17,9 +7,10 @@ document.getElementById("search").addEventListener("input", () => {
     return;
   }
 
-  const year = parseInt(query);
+  // Try parsing as number first
+  const year = Number(query);
   if (!isNaN(year)) {
-    const active = pirates.filter(p => year >= p.active_start && year <= p.active_end);
+    const active = pirates.filter(p => year >= Number(p.active_start) && year <= Number(p.active_end));
     if (!active.length) {
       resultsDiv.innerHTML = `<div class='result'>No known pirate activity in ${year}.</div>`;
       return;
@@ -35,7 +26,8 @@ document.getElementById("search").addEventListener("input", () => {
     return;
   }
 
-  const pirate = pirates.find(p => p.name.toLowerCase().includes(query));
+  // Name search (case-insensitive)
+  const pirate = pirates.find(p => p.name.toLowerCase().includes(query.toLowerCase()));
   if (!pirate) {
     resultsDiv.innerHTML = `<div class='result'>No pirate found by that name.</div>`;
     return;
