@@ -2,7 +2,7 @@
 body {
   font-family: Georgia, serif;
   background-color: #2b2b2b; /* dark grey */
-  color: #f5f5f5;
+  color: #dcdcdc; /* light grey font */
   margin: 0;
   padding: 20px;
   display: flex;
@@ -15,6 +15,12 @@ body {
   width: 100%;
 }
 
+/* Page heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 /* Search input box */
 #search {
   width: 100%;
@@ -24,7 +30,7 @@ body {
   border: none;
   margin-bottom: 15px;
   background-color: #7f3f24; /* rusty red/brown */
-  color: #f5f5f5;
+  color: #dcdcdc; /* light grey text */
 }
 
 /* Result boxes */
@@ -39,19 +45,14 @@ body {
 /* Headings inside results */
 .result h3, .result h4 {
   margin: 5px 0;
+  color: #dcdcdc; /* light grey */
 }
 
-/* Links (optional) */
-a {
-  color: #ffd700; /* gold */
-  text-decoration: none;
+/* Lists inside results */
+.result ul {
+  padding-left: 20px;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-
-a:hover {
-  text-decoration: underline;
+.result li {
+  color: #dcdcdc; /* light grey */
 }
