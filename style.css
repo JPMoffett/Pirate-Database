@@ -5,28 +5,33 @@
 <title>Pirate Database</title>
 
 <style>
-  /* Page background and text */
+  /* Global page background and text */
   body {
-    background-color: #2b2b2b;  /* dark grey */
-    color: #dcdcdc;             /* light grey text */
+    background-color: #1e1e1e;   /* darker grey */
+    color: #dcdcdc;              /* light grey text */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
 
-  /* Main content centered */
+  /* Ensure ALL text inherits the light grey color */
+  *, *::before, *::after {
+    color: inherit;
+  }
+
+  /* Main container */
   #main {
     width: 700px;
-    margin: 40px auto;    /* centers left-right */
+    margin: 40px auto;
     padding: 20px;
-    text-align: center;   /* center header + input */
+    text-align: center;
   }
 
   h1 {
     margin-bottom: 20px;
   }
 
-  /* Search box styling */
+  /* Search input */
   #search {
     width: 100%;
     padding: 12px;
@@ -34,20 +39,25 @@
     border-radius: 8px;
     border: none;
     margin-bottom: 20px;
+
     background-color: #8b3a2b; /* rusty red/brown */
     color: #dcdcdc;
     box-sizing: border-box;
   }
 
+  #search::placeholder {
+    color: #e0c7c0;   /* lighter rust-tinted placeholder */
+  }
+
   /* Result boxes */
   .result {
     width: 100%;
-    background-color: #8b3a2b; /* SAME rust color */
+    background-color: #8b3a2b;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 8px;
     box-sizing: border-box;
-    text-align: left;  /* content readable */
+    text-align: left;
   }
 
   /* Lists inside results */
@@ -55,6 +65,7 @@
     margin: 10px 0 0 20px;
     padding: 0;
   }
+
 </style>
 </head>
 
