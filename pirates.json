@@ -1,7 +1,7 @@
 [
-  { "name": "Blackbeard (Edward Teach)", "active_start": 1716, "active_end": 1718, "location": "Caribbean / North Carolina" },
-  { "name": "Bartholomew Roberts (Black Bart)", "active_start": 1719, "active_end": 1722, "location": "Caribbean / Atlantic / West Africa" },
-  { "name": "Calico Jack (John Rackham)", "active_start": 1718, "active_end": 1720, "location": "Caribbean / Bahamas" },
+  { "name": "Blackbeard (Edward Teach)", "active_start": 1716, "active_end": 1718, "location": "Caribbean / North Carolina" },
+  { "name": "Bartholomew Roberts (Black Bart)", "active_start": 1719, "active_end": 1722, "location": "Caribbean / Atlantic / West Africa" },
+  { "name": "Calico Jack (John Rackham)", "active_start": 1718, "active_end": 1720, "location": "Caribbean / Bahamas" },
   { "name": "Anne Bonny", "active_start": 1718, "active_end": 1720, "location": "Caribbean / Bahamas" },
   { "name": "Mary Read", "active_start": 1718, "active_end": 1720, "location": "Caribbean / Bahamas" },
   { "name": "Charles Vane", "active_start": 1716, "active_end": 1721, "location": "Caribbean / Atlantic coast" },
@@ -57,8 +57,8 @@
   { "name": "Richard Sawkins", "active_start": 1679, "active_end": 1681, "location": "Caribbean / Spanish Main" },
   { "name": "Bartholomew Sharp", "active_start": 1675, "active_end": 1680, "location": "Caribbean / Spanish Main" },
   { "name": "Jack Ward (Yusuf Reis)", "active_start": 1603, "active_end": 1622, "location": "Mediterranean / North Africa" },
-  { "name": "Grace O’Malley", "active_start": 1550, "active_end": 1603, "location": "Ireland / Atlantic" },
+  { "name": "Grace O'Malley", "active_start": 1550, "active_end": 1603, "location": "Ireland / Atlantic" },
   { "name": "Jacquotte Delahaye", "active_start": 1650, "active_end": 1660, "location": "Caribbean / Hispaniola" },
-  { "name": "François l’Olonnais", "active_start": 1667, "active_end": 1671, "location": "Caribbean / Spanish Main" },
+  { "name": "Francois l'Olonnais", "active_start": 1667, "active_end": 1671, "location": "Caribbean / Spanish Main" },
   { "name": "Woodes Rogers", "active_start": 1709, "active_end": 1711, "location": "Atlantic / Caribbean" }
 ]
