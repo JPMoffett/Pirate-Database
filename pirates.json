@@ -21,6 +21,7 @@
   { "name": "Francis Spriggs", "active_start": 1722, "active_end": 1724, "location": "Caribbean / Atlantic" },
   { "name": "William Fly", "active_start": 1726, "active_end": 1726, "location": "Atlantic coast / Caribbean" },
   { "name": "Dirk Chivers", "active_start": 1699, "active_end": 1705, "location": "Indian Ocean / Atlantic" },
+  { "name": "Jean Lafitte", "active_start": 1810, "active_end": 1823, "location": "Barataria Bay Louisiana / Galveston Island Texas" },
   { "name": "John Halsey", "active_start": 1705, "active_end": 1718, "location": "Indian Ocean / Atlantic" },
   { "name": "John Quelch", "active_start": 1703, "active_end": 1704, "location": "Atlantic coast" },
   { "name": "John Bowen", "active_start": 1718, "active_end": 1720, "location": "Indian Ocean / Caribbean" },
@@ -60,5 +61,6 @@
   { "name": "Grace O'Malley", "active_start": 1550, "active_end": 1603, "location": "Ireland / Atlantic" },
   { "name": "Jacquotte Delahaye", "active_start": 1650, "active_end": 1660, "location": "Caribbean / Hispaniola" },
   { "name": "Francois l'Olonnais", "active_start": 1667, "active_end": 1671, "location": "Caribbean / Spanish Main" },
-  { "name": "Woodes Rogers", "active_start": 1709, "active_end": 1711, "location": "Atlantic / Caribbean" }
+  { "name": "Woodes Rogers", "active_start": 1709, "active_end": 1711, "location": "Atlantic / Caribbean" },
+  { "name": "Zheng Yi Sao", "active_start": 1801, "active_end": 1810, "location": "Lantau Island Guangdong Qing China" }
 ]
