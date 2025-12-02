@@ -26,6 +26,7 @@ h1 {
 }
 
 /* Search input box */
+/* Search input box */
 #search {
   width: 100%;
   padding: 10px 15px;
@@ -39,12 +40,13 @@ h1 {
 
 /* Result boxes */
 .result {
-  background-color: #a0522d; /* slightly lighter rusty red/brown */
+  background-color: #7f3f24; /* same as search box now */
   padding: 10px 15px;
   margin: 10px 0;
   border-radius: 8px;
   box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
 }
+
 
 /* Headings inside results */
 .result h3, .result h4 {
