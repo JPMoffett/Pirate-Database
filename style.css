@@ -1,62 +1,65 @@
-/* Page background and font */
-body {
-  font-family: Georgia, serif;
-  background-color: #2b2b2b; /* dark grey */
-  color: #dcdcdc; /* light grey font */
-  margin: 0;
-  padding: 20px;
-  display: flex;
-  justify-content: center;  /* center horizontally */
-  align-items: flex-start;  /* align top vertically, so content starts at top */
-  flex-direction: column;   /* stack content vertically */
-  min-height: 100vh;        /* full viewport height */
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pirate Database</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #2b2b2b; /* dark grey page background */
+    color: #dcdcdc;            /* light grey text */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;    /* horizontal center */
+  }
 
+  #main {
+    width: 700px;               /* fixed width for the main column */
+  }
 
-/* Main content area */
-#main {
-  max-width: 800px;
-  width: 100%;
-}
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-/* Page heading */
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
+  #search {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 15px;
+    background-color: #5a2b1f; /* dark reddish-brown */
+    color: #dcdcdc;
+  }
 
-/#search {
-  width: 100%;
-  padding: 10px 15px;
-  font-size: 16px;
-  border-radius: 8px;
-  border: none;
-  margin-bottom: 15px;
-  background-color: #5a2b1f; /* dark reddish-brown */
-  color: #dcdcdc; /* light grey text */
-}
+  .result {
+    width: 100%;
+    background-color: #5a2b1f; /* same as search box */
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+  }
 
-/* Result boxes */
-.result {
-  background-color: #5a2b1f; /* match search box exactly */
-  padding: 10px 15px;
-  margin: 10px 0;
-  border-radius: 8px;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
-}
+  ul {
+    margin: 5px 0 0 20px;
+    padding: 0;
+  }
+</style>
+</head>
+<body>
+<div id="main">
+  <h1>Pirate Database</h1>
+  <input id="search" placeholder="Search by year (e.g., 1717) or pirate name (e.g., Blackbeard)">
+  <div id="results"></div>
+</div>
 
+<script src="script.js"></script>
+</body>
+</html>
 
-
-/* Headings inside results */
-.result h3, .result h4 {
-  margin: 5px 0;
-  color: #dcdcdc; /* light grey */
-}
-
-/* Lists inside results */
-.result ul {
-  padding-left: 20px;
-}
 
 .result li {
   color: #dcdcdc; /* light grey */
