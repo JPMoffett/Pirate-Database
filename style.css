@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+  font-family: Georgia, serif;
+  background-color: #2b2b2b;   /* dark grey background */
+  color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Container for images + main content */
+#container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1000px;
+  width: 100%;
+}
+
+/* Side images */
+.side-image {
+  width: 150px;
+  margin: 0 20px;
+  object-fit: contain;
+}
+
+/* Main content column */
+#main {
+  flex: 1;
+}
+
+/* Search input styling */
+#search {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  margin-bottom: 15px;
+  background-color: #5a2e1a;   /* dark rusty red */
+  color: #f5f5f5;
+}
+
+/* Results box */
+.result {
+  border: 1px solid #333;
+  background-color: #7f3f24;   /* slightly lighter rusty red/brown */
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+
+  /* Parchment texture */
+  background-image: url('parchment-texture.png'); /* place the image in same folder */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply; /* blends the texture with the background color */
+}
+
+/* Headings inside results */
+.result h3, .result h4 {
+  margin: 5px 0;
+}
+
+/* Links, if any */
+a {
+  color: #ffd700; /* gold color for pirate-y effect */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
