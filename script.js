@@ -60,4 +60,3 @@ fetch("pirates.json")
     });
   })
   .catch(err => console.error("Error loading JSON:", err));
-
