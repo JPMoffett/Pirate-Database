@@ -5,34 +5,31 @@
 <title>Pirate Database</title>
 
 <style>
-  /* Force background everywhere */
+  /* PAGE BACKGROUND + TEXT */
   html, body {
     height: 100%;
-    background-color: #2b2b2b !important; /* dark grey */
-    color: #dcdcdc !important;            /* light grey */
+    background-color: #2b2b2b; /* dark grey */
+    color: #dcdcdc;            /* light grey */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
   }
 
-  /* Force all text to inherit color */
+  /* Force everything to use the light grey text color */
   *, *::before, *::after {
-    color: inherit !important;
+    color: inherit;
+    box-sizing: border-box;
   }
 
-  /* Main container */
+  /* MAIN WRAPPER */
   #main {
     width: 700px;
-    margin: 40px auto;
+    margin: 40px auto; /* centers horizontally */
     padding: 20px;
     text-align: center;
   }
 
-  h1 {
-    margin-bottom: 20px;
-  }
-
-  /* Search box */
+  /* SEARCH BOX */
   #search {
     width: 100%;
     padding: 12px;
@@ -41,24 +38,22 @@
     border: none;
     margin-bottom: 20px;
 
-    background-color: #8b3a2b;
-    color: #dcdcdc;
-    box-sizing: border-box;
+    background-color: #8b3a2b; /* rusty brown */
+    color: #dcdcdc;            /* light grey text */
   }
 
   #search::placeholder {
     color: #e6d6d4;
   }
 
-  /* Result boxes */
+  /* PIRATE RESULT BOXES */
   .result {
     width: 100%;
     background-color: #8b3a2b;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 8px;
-    box-sizing: border-box;
-    text-align: left;
+    text-align: left;       /* readable text */
   }
 
   ul {
@@ -72,11 +67,14 @@
   <div id="main">
     <h1>Pirate Database</h1>
 
-    <input id="search"
-      placeholder="Search by year (e.g., 1717) or pirate name (e.g., Blackbeard)">
+    <input id="search" placeholder="Search by year or pirate name">
 
     <div id="results"></div>
   </div>
+
+<script src="script.js"></script>
+</body>
+</html>
 
   <script src="script.js"></script>
 </body>
