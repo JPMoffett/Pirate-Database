@@ -25,27 +25,26 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Search input box */
-/* Search input box */
-#search {
+/#search {
   width: 100%;
   padding: 10px 15px;
   font-size: 16px;
   border-radius: 8px;
   border: none;
   margin-bottom: 15px;
-  background-color: #7f3f24; /* rusty red/brown */
+  background-color: #5a2b1f; /* dark reddish-brown */
   color: #dcdcdc; /* light grey text */
 }
 
 /* Result boxes */
 .result {
-  background-color: #7f3f24; /* same as search box now */
+  background-color: #5a2b1f; /* match search box exactly */
   padding: 10px 15px;
   margin: 10px 0;
   border-radius: 8px;
   box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
 }
+
 
 
 /* Headings inside results */
