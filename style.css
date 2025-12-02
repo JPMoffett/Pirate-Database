@@ -6,8 +6,12 @@ body {
   margin: 0;
   padding: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: center;  /* center horizontally */
+  align-items: flex-start;  /* align top vertically, so content starts at top */
+  flex-direction: column;   /* stack content vertically */
+  min-height: 100vh;        /* full viewport height */
 }
+
 
 /* Main content area */
 #main {
