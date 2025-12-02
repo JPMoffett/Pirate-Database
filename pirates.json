@@ -1,4 +1,5 @@
- { "name": "Blackbeard (Edward Teach)", "active_start": 1716, "active_end": 1718, "location": "Caribbean / North Carolina" },
+[
+  { "name": "Blackbeard (Edward Teach)", "active_start": 1716, "active_end": 1718, "location": "Caribbean / North Carolina" },
   { "name": "Bartholomew Roberts (Black Bart)", "active_start": 1719, "active_end": 1722, "location": "Caribbean / Atlantic / West Africa" },
   { "name": "Calico Jack (John Rackham)", "active_start": 1718, "active_end": 1720, "location": "Caribbean / Bahamas" },
   { "name": "Anne Bonny", "active_start": 1718, "active_end": 1720, "location": "Caribbean / Bahamas" },
@@ -59,4 +60,5 @@
   { "name": "Grace O’Malley", "active_start": 1550, "active_end": 1603, "location": "Ireland / Atlantic" },
   { "name": "Jacquotte Delahaye", "active_start": 1650, "active_end": 1660, "location": "Caribbean / Hispaniola" },
   { "name": "François l’Olonnais", "active_start": 1667, "active_end": 1671, "location": "Caribbean / Spanish Main" },
-  { "name": "Woodes Rogers", "active_start": 1709, "active_end": 17
+  { "name": "Woodes Rogers", "active_start": 1709, "active_end": 1711, "location": "Atlantic / Caribbean" }
+]
