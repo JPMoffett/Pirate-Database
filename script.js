@@ -2,7 +2,11 @@ let pirates = [];
 
 fetch("pirates.json")
   .then(res => res.json())
-  .then(data => pirates = data);
+  .then(data => {
+    pirates = data;
+    console.log("Loaded pirates:", pirates.length, "entries");
+  })
+  .catch(err => console.error("Error loading JSON:", err));
 
 document.getElementById("search").addEventListener("input", () => {
   const query = document.getElementById("search").value.trim().toLowerCase();
