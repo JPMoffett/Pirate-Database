@@ -4,18 +4,21 @@
 <meta charset="UTF-8">
 <title>Pirate Database</title>
 <style>
+  /* Page setup */
   body {
     font-family: Arial, sans-serif;
-    background-color: #2b2b2b; /* dark grey page background */
-    color: #dcdcdc;            /* light grey text */
+    background-color: #2b2b2b;  /* dark grey background */
+    color: #dcdcdc;             /* light grey text */
     margin: 0;
-    padding: 20px;
+    padding: 0;
     display: flex;
-    justify-content: center;    /* horizontal center */
+    justify-content: center;
   }
 
+  /* Main column container */
   #main {
-    width: 700px;               /* fixed width for the main column */
+    width: 700px;               /* fixed width for content */
+    padding: 20px;
   }
 
   h1 {
@@ -23,6 +26,7 @@
     margin-bottom: 20px;
   }
 
+  /* Search box */
   #search {
     width: 100%;
     padding: 12px 15px;
@@ -30,19 +34,23 @@
     border-radius: 8px;
     border: none;
     margin-bottom: 15px;
-    background-color: #5a2b1f; /* dark reddish-brown */
+    background-color: #5a2b1f;  /* dark reddish-brown */
     color: #dcdcdc;
+    box-sizing: border-box;
   }
 
+  /* Results boxes */
   .result {
     width: 100%;
-    background-color: #5a2b1f; /* same as search box */
-    padding: 10px 15px;
-    margin: 10px 0;
+    background-color: #5a2b1f;  /* same as search box */
+    padding: 15px;
+    margin-bottom: 15px;
     border-radius: 8px;
     box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    box-sizing: border-box;
   }
 
+  /* Lists inside results */
   ul {
     margin: 5px 0 0 20px;
     padding: 0;
@@ -50,17 +58,13 @@
 </style>
 </head>
 <body>
-<div id="main">
-  <h1>Pirate Database</h1>
-  <input id="search" placeholder="Search by year (e.g., 1717) or pirate name (e.g., Blackbeard)">
-  <div id="results"></div>
-</div>
+  <div id="main">
+    <h1>Pirate Database</h1>
+    <input id="search" placeholder="Search by year (e.g., 1717) or pirate name (e.g., Blackbeard)">
+    <div id="results"></div>
+  </div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
 
-
-.result li {
-  color: #dcdcdc; /* light grey */
-}
