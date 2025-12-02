@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Pirate Database</title>
+
 <style>
   /* Page background and text */
   body {
@@ -11,15 +12,14 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
   }
 
-  /* Main content container */
+  /* Main content centered */
   #main {
     width: 700px;
+    margin: 40px auto;    /* centers left-right */
     padding: 20px;
-    text-align: center;  /* center content horizontally */
+    text-align: center;   /* center header + input */
   }
 
   h1 {
@@ -33,7 +33,7 @@
     font-size: 16px;
     border-radius: 8px;
     border: none;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     background-color: #8b3a2b; /* rusty red/brown */
     color: #dcdcdc;
     box-sizing: border-box;
@@ -42,25 +42,29 @@
   /* Result boxes */
   .result {
     width: 100%;
-    background-color: #8b3a2b; /* same rusty red/brown */
+    background-color: #8b3a2b; /* SAME rust color */
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 8px;
     box-sizing: border-box;
-    text-align: left;  /* keep text left-aligned */
+    text-align: left;  /* content readable */
   }
 
   /* Lists inside results */
   ul {
-    margin: 5px 0 0 20px;
+    margin: 10px 0 0 20px;
     padding: 0;
   }
 </style>
 </head>
+
 <body>
   <div id="main">
     <h1>Pirate Database</h1>
-    <input id="search" placeholder="Search by year (e.g., 1717) or pirate name (e.g., Blackbeard)">
+
+    <input id="search"
+      placeholder="Search by year (e.g., 1717) or pirate name (e.g., Blackbeard)">
+
     <div id="results"></div>
   </div>
 
