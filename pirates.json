@@ -619,7 +619,7 @@
 { "name": "Claes Gerritszoon Compaen", "active_start": 1621, "active_end": 1627, "location": "Atlantic / West Africa" },
 { "name": "Jan Jacobsen", "active_start": 1616, "active_end": 1622, "location": "North Sea / Atlantic" },
 { "name": "Juan Corso", "active_start": 1665, "active_end": 1680, "location": "Cuba / Caribbean" },
-{ "name": "Angelino "the Blonde"", "active_start": 1528, "active_end": 1532, "location": "Caribbean" },
+{ "name": "Angelino the Blonde", "active_start": 1528, "active_end"; 1532, "location": "Caribbean" },  
 { "name": "Miguel Henríquez", "active_start": 1713, "active_end": 1726, "location": "Caribbean" },
 { "name": "Domingo López", "active_start": 1620, "active_end": 1630, "location": "Caribbean / Honduras" },
 { "name": "Stephen Heywood", "active_start": 1714, "active_end": 1717, "location": "Caribbean" },
