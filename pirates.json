@@ -10,7 +10,7 @@
   { "name": "Calico Jack Rackham", "active_start": 1718, "active_end": 1720, "location": "Bahamas / Jamaica" },
   { "name": "Anne Bonny", "active_start": 1718, "active_end": 1720, "location": "Bahamas / Caribbean" },
   { "name": "Mary Read", "active_start": 1718, "active_end": 1720, "location": "Caribbean" },
-
+  { "name": "John Ward", "active_start": 1605, "active_end": 1610, "location": "Tunis / Barbary Coast" },
   { "name": "Henry Every (Avery)", "active_start": 1694, "active_end": 1696, "location": "Atlantic / Indian Ocean" },
   { "name": "William Kidd (Captain Kidd)", "active_start": 1696, "active_end": 1699, "location": "Indian Ocean" },
   { "name": "Thomas Tew", "active_start": 1692, "active_end": 1695, "location": "Red Sea" },
